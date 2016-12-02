@@ -3,7 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .jumbotron-home {
-    background-color: chocolate;
+    background-color: lightskyblue;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.jumbotron-other {
+    background-color: lightskyblue;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

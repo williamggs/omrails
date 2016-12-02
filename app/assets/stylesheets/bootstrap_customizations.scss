@@ -37,8 +37,8 @@ $brand-inverse:             $gray-dark;
 // Quickly modify global styling by enabling or disabling optional features.
 
 $enable-rounded:            true;
-$enable-shadows:            false;
-$enable-gradients:          false;
+$enable-shadows:            true;
+$enable-gradients:          true;
 $enable-transitions:        false;
 
 
@@ -46,8 +46,8 @@ $enable-transitions:        false;
 //
 // Control the default styling of most Bootstrap elements by modifying these variables.
 
-$spacer:   1rem;
-$border-width: 1px;
+$spacer:   2rem;
+$border-width: 2px;
 
 
 // Body
@@ -86,7 +86,7 @@ $font-size-xs:   .75rem;
 
 $line-height-base: 1.5;
 
-$font-size-h1: 2.5rem;
+$font-size-h1: 3.5rem;
 $font-size-h2: 2rem;
 $font-size-h3: 1.75rem;
 $font-size-h4: 1.5rem;
@@ -116,8 +116,8 @@ $border-radius-sm:       .2rem;
 
 $navbar-border-radius:              $border-radius;
 $navbar-padding-x:                  $spacer;
-$navbar-padding-y:                  ($spacer / 2);
-$navbar-brand-padding-y:            .25rem;
+$navbar-padding-y:                  ($spacer / 3.5);
+$navbar-brand-padding-y:            .30rem;
 
 $navbar-dark-color:                 rgba(255,255,255,.5);
 $navbar-dark-hover-color:           rgba(255,255,255,.75);
