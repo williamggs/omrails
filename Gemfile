@@ -11,6 +11,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'devise'
+gem 'activeadmin', '~> 1.0.0.pre4'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+gem 'jquery-ui-rails', '~> 4.2.1'
 
 group :development, :test do
   gem 'byebug', platform: :mri
