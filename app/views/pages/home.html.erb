@@ -1,7 +1,7 @@
 <% if user_signed_in? %>
     <div class="jumbotron jumbotron-home">
         <div class="container">
-            <h1>Welcome #back!</h1>
+            <h1><span class="tag tag-pill tag-success">Welcome Back <%= current_user.email %>!</span></h1>
     </div>
 </div>
 <% else %>
@@ -9,7 +9,7 @@
         <div class="container">
                 <h1>Welcome to my #myplace!</h1>
                 <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <%= link_to "Discover »", contact_path, class: "btn btn-danger btn-lg" %> 
+                <%= link_to "# Blog »", posts_path, class: "btn btn-danger btn-lg" %> 
         </div>
     </div>
     <div class="container">
